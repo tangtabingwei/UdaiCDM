@@ -1,0 +1,606 @@
+[ 2016-02-26T09:38:16+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T09:39:31+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T09:40:35+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T09:42:09+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T09:43:45+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T09:44:32+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T09:44:48+08:00 ] ::1 /index.php/Auth/edit/auth_id/19.html
+ERR: 非法操作:edit
+
+[ 2016-02-26T09:54:42+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T10:12:38+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T10:14:14+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T10:24:06+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T10:24:10+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T10:25:30+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T10:36:49+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T10:37:12+08:00 ] ::1 /index.php/CustomerInfo/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cdm_manager` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `cdm_manager` WHERE `mg_id` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cdm_role` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cdm_role` WHERE `role_id` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cdm_auth` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 0 ORDER BY auth_order asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `role_auth_ac` FROM `cdm_manager` INNER JOIN  cdm_role ON cdm_manager.mg_role_id = cdm_role.role_id  WHERE `mg_id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cdm_customer_info` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `cdm_customer_info` (`real_name`,`idno`,`mobile`,`mobile2`,`address`,`content`,`customer_type`) VALUES ('dsdsd','','','','','','0') [ RunTime:0.0000s ]
+
+[ 2016-02-26T10:37:15+08:00 ] ::1 /index.php/CustomerInfo/all.html
+ERR: 非法操作:all
+
+[ 2016-02-26T11:06:28+08:00 ] ::1 /index.php/CustomerInfo1/add.html
+ERR: 无法加载控制器:CustomerInfo1
+
+[ 2016-02-26T13:40:57+08:00 ] ::1 /index.php/CustomerInfo/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cdm_manager` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `cdm_manager` WHERE `mg_id` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cdm_role` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cdm_role` WHERE `role_id` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cdm_auth` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 0 ORDER BY auth_order asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `role_auth_ac` FROM `cdm_manager` INNER JOIN  cdm_role ON cdm_manager.mg_role_id = cdm_role.role_id  WHERE `mg_id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cdm_customer_info` [ RunTime:0.0060s ]
+ERR: Think\Controller:create方法不存在！
+
+[ 2016-02-26T13:40:58+08:00 ] ::1 /index.php/CustomerInfo/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cdm_manager` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cdm_manager` WHERE `mg_id` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cdm_role` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cdm_role` WHERE `role_id` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cdm_auth` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 0 ORDER BY auth_order asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `role_auth_ac` FROM `cdm_manager` INNER JOIN  cdm_role ON cdm_manager.mg_role_id = cdm_role.role_id  WHERE `mg_id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cdm_customer_info` [ RunTime:0.0060s ]
+ERR: Think\Controller:create方法不存在！
+
+[ 2016-02-26T13:41:21+08:00 ] ::1 /index.php/CustomerInfo/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cdm_manager` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `cdm_manager` WHERE `mg_id` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cdm_role` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `cdm_role` WHERE `role_id` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cdm_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 0 ORDER BY auth_order asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `role_auth_ac` FROM `cdm_manager` INNER JOIN  cdm_role ON cdm_manager.mg_role_id = cdm_role.role_id  WHERE `mg_id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cdm_customer_info` [ RunTime:0.0060s ]
+ERR: Think\Controller:create方法不存在！
+
+[ 2016-02-26T13:41:22+08:00 ] ::1 /index.php/CustomerInfo/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cdm_manager` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cdm_manager` WHERE `mg_id` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cdm_role` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cdm_role` WHERE `role_id` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cdm_auth` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 0 ORDER BY auth_order asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `role_auth_ac` FROM `cdm_manager` INNER JOIN  cdm_role ON cdm_manager.mg_role_id = cdm_role.role_id  WHERE `mg_id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cdm_customer_info` [ RunTime:0.0040s ]
+ERR: Think\Controller:create方法不存在！
+
+[ 2016-02-26T13:41:59+08:00 ] ::1 /index.php/CustomerInfo/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cdm_manager` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cdm_manager` WHERE `mg_id` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cdm_role` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cdm_role` WHERE `role_id` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cdm_auth` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 0 ORDER BY auth_order asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `role_auth_ac` FROM `cdm_manager` INNER JOIN  cdm_role ON cdm_manager.mg_role_id = cdm_role.role_id  WHERE `mg_id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cdm_customer_info` [ RunTime:0.0050s ]
+ERR: Think\Controller:create方法不存在！
+
+[ 2016-02-26T13:42:00+08:00 ] ::1 /index.php/CustomerInfo/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `cdm_manager` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `cdm_manager` WHERE `mg_id` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cdm_role` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `cdm_role` WHERE `role_id` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cdm_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 0 ORDER BY auth_order asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `role_auth_ac` FROM `cdm_manager` INNER JOIN  cdm_role ON cdm_manager.mg_role_id = cdm_role.role_id  WHERE `mg_id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cdm_customer_info` [ RunTime:0.0050s ]
+ERR: Think\Controller:create方法不存在！
+
+[ 2016-02-26T13:42:43+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T13:42:48+08:00 ] ::1 /index.php/CustomerInfo/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cdm_manager` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cdm_manager` WHERE `mg_id` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cdm_role` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cdm_role` WHERE `role_id` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cdm_auth` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 0 ORDER BY auth_order asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `role_auth_ac` FROM `cdm_manager` INNER JOIN  cdm_role ON cdm_manager.mg_role_id = cdm_role.role_id  WHERE `mg_id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cdm_customer_info` [ RunTime:0.0060s ]
+ERR: Think\Controller:create方法不存在！
+
+[ 2016-02-26T13:42:53+08:00 ] ::1 /index.php/CustomerInfo/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cdm_manager` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `cdm_manager` WHERE `mg_id` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cdm_role` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cdm_role` WHERE `role_id` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cdm_auth` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 0 ORDER BY auth_order asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `role_auth_ac` FROM `cdm_manager` INNER JOIN  cdm_role ON cdm_manager.mg_role_id = cdm_role.role_id  WHERE `mg_id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cdm_customer_info` [ RunTime:0.0070s ]
+ERR: Think\Controller:create方法不存在！
+
+[ 2016-02-26T13:44:02+08:00 ] ::1 /index.php/CustomerInfo/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cdm_manager` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cdm_manager` WHERE `mg_id` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cdm_role` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cdm_role` WHERE `role_id` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cdm_auth` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 0 ORDER BY auth_order asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `role_auth_ac` FROM `cdm_manager` INNER JOIN  cdm_role ON cdm_manager.mg_role_id = cdm_role.role_id  WHERE `mg_id` = '1' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cdm_customer_info` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `cdm_customer_info` WHERE `idno` = '' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-26T13:44:12+08:00 ] ::1 /index.php/CustomerInfo/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cdm_manager` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cdm_manager` WHERE `mg_id` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cdm_role` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cdm_role` WHERE `role_id` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cdm_auth` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 0 ORDER BY auth_order asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `role_auth_ac` FROM `cdm_manager` INNER JOIN  cdm_role ON cdm_manager.mg_role_id = cdm_role.role_id  WHERE `mg_id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cdm_customer_info` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `cdm_customer_info` WHERE `idno` = '' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-26T13:50:26+08:00 ] ::1 /index.php/CustomerInfo/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cdm_manager` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cdm_manager` WHERE `mg_id` = 1  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cdm_role` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cdm_role` WHERE `role_id` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cdm_auth` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 0 ORDER BY auth_order asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 1  [ RunTime:0.0060s ]
+SQL: SELECT `role_auth_ac` FROM `cdm_manager` INNER JOIN  cdm_role ON cdm_manager.mg_role_id = cdm_role.role_id  WHERE `mg_id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cdm_customer_info` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `cdm_customer_info` WHERE `idno` = '' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-02-26T13:51:04+08:00 ] ::1 /index.php/CustomerInfo/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cdm_manager` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cdm_manager` WHERE `mg_id` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cdm_role` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cdm_role` WHERE `role_id` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cdm_auth` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 0 ORDER BY auth_order asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `role_auth_ac` FROM `cdm_manager` INNER JOIN  cdm_role ON cdm_manager.mg_role_id = cdm_role.role_id  WHERE `mg_id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cdm_customer_info` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `cdm_customer_info` WHERE `idno` = '320154854' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `cdm_customer_info` (`real_name`,`idno`,`mobile`,`mobile2`,`address`,`content`,`customer_type`,`create_time`,`update_time`) VALUES ('用户啊','320154854','12345678912','12345678912','收复失地','','0','1456465864','1456465864') [ RunTime:0.0000s ]
+
+[ 2016-02-26T13:52:19+08:00 ] ::1 /index.php/CustomerInfo/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cdm_manager` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cdm_manager` WHERE `mg_id` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cdm_role` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cdm_role` WHERE `role_id` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cdm_auth` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 0 ORDER BY auth_order asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `role_auth_ac` FROM `cdm_manager` INNER JOIN  cdm_role ON cdm_manager.mg_role_id = cdm_role.role_id  WHERE `mg_id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cdm_customer_info` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `cdm_customer_info` WHERE `idno` = '320154854' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-02-26T13:52:25+08:00 ] ::1 /index.php/CustomerInfo/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cdm_manager` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cdm_manager` WHERE `mg_id` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cdm_role` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cdm_role` WHERE `role_id` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cdm_auth` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 0 ORDER BY auth_order asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `role_auth_ac` FROM `cdm_manager` INNER JOIN  cdm_role ON cdm_manager.mg_role_id = cdm_role.role_id  WHERE `mg_id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cdm_customer_info` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `cdm_customer_info` WHERE `idno` = '3201548542' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `cdm_customer_info` (`real_name`,`idno`,`mobile`,`mobile2`,`address`,`content`,`customer_type`,`create_time`,`update_time`) VALUES ('用户啊','3201548542','12345678912','12345678912','收复失地','','0','1456465945','1456465945') [ RunTime:0.0000s ]
+
+[ 2016-02-26T13:58:30+08:00 ] ::1 /index.php/CustomerInfo/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cdm_manager` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cdm_manager` WHERE `mg_id` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cdm_role` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cdm_role` WHERE `role_id` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cdm_auth` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 0 ORDER BY auth_order asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `role_auth_ac` FROM `cdm_manager` INNER JOIN  cdm_role ON cdm_manager.mg_role_id = cdm_role.role_id  WHERE `mg_id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cdm_customer_info` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `cdm_customer_info` WHERE `idno` = '3201548542' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-02-26T13:58:55+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T13:59:02+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T14:23:44+08:00 ] ::1 /index.php/CustomerInfo/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cdm_manager` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cdm_manager` WHERE `mg_id` = 1  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cdm_role` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cdm_role` WHERE `role_id` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cdm_auth` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 0 ORDER BY auth_order asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `role_auth_ac` FROM `cdm_manager` INNER JOIN  cdm_role ON cdm_manager.mg_role_id = cdm_role.role_id  WHERE `mg_id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cdm_customer_info` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `cdm_customer_info` WHERE `idno` = '' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-02-26T14:27:29+08:00 ] ::1 /index.php/CustomerInfo/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cdm_manager` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cdm_manager` WHERE `mg_id` = 1  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cdm_role` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `cdm_role` WHERE `role_id` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cdm_auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 0 ORDER BY auth_order asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `role_auth_ac` FROM `cdm_manager` INNER JOIN  cdm_role ON cdm_manager.mg_role_id = cdm_role.role_id  WHERE `mg_id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cdm_customer_info` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `cdm_customer_info` WHERE `idno` = '' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-02-26T14:40:47+08:00 ] ::1 /index.php/CustomerInfo/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cdm_customer_info` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: validate G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `cdm_customer_info` WHERE `idno` = '' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2016-02-26T14:44:40+08:00 ] ::1 /index.php/CustomerInfo/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cdm_customer_info` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: validate G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `cdm_customer_info` WHERE `idno` = '' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-02-26T14:45:07+08:00 ] ::1 /index.php/CustomerInfo/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cdm_customer_info` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: validate G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `cdm_customer_info` WHERE `idno` = 'sdsddsfs' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: auto G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `cdm_customer_info` (`real_name`,`idno`,`mobile`,`mobile2`,`address`,`content`,`customer_type`,`create_time`,`update_time`) VALUES ('都是的','sdsddsfs','12345678910','12345678910','是多少','','0','1456469107','1456469107') [ RunTime:0.0010s ]
+
+[ 2016-02-26T14:48:25+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T14:48:37+08:00 ] ::1 /index.php/CustomerInfo/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cdm_customer_info` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `cdm_customer_info` WHERE `idno` = '' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-02-26T14:48:52+08:00 ] ::1 /index.php/CustomerInfo/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cdm_customer_info` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `cdm_customer_info` WHERE `idno` = '455424544554' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `cdm_customer_info` (`real_name`,`idno`,`mobile`,`mobile2`,`address`,`content`,`customer_type`,`create_time`,`update_time`) VALUES ('对方答复','455424544554','12345678910','12345678910','是多少','','0','1456469332','1456469332') [ RunTime:0.0000s ]
+
+[ 2016-02-26T14:50:08+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T14:50:15+08:00 ] ::1 /index.php/CustomerInfo/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cdm_customer_info` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `cdm_customer_info` WHERE `idno` = '' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-02-26T14:50:38+08:00 ] ::1 /index.php/CustomerInfo/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cdm_customer_info` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `cdm_customer_info` WHERE `idno` = '121121212' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `cdm_customer_info` (`real_name`,`idno`,`mobile`,`mobile2`,`address`,`content`,`customer_type`,`create_time`,`update_time`) VALUES ('萨达萨达','121121212','12345678910','12345678910','45454','','0','1456469438','1456469438') [ RunTime:0.0010s ]
+
+[ 2016-02-26T14:50:40+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T14:53:44+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T14:53:50+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T14:54:15+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T14:55:01+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T14:55:10+08:00 ] ::1 /index.php/CustomerInfo/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cdm_manager` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cdm_manager` WHERE `mg_id` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cdm_role` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cdm_role` WHERE `role_id` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cdm_auth` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 0 ORDER BY auth_order asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `role_auth_ac` FROM `cdm_manager` INNER JOIN  cdm_role ON cdm_manager.mg_role_id = cdm_role.role_id  WHERE `mg_id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cdm_customer_info` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `cdm_customer_info` WHERE `idno` = '' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-02-26T14:55:39+08:00 ] ::1 /index.php/CustomerInfo/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cdm_manager` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cdm_manager` WHERE `mg_id` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cdm_role` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cdm_role` WHERE `role_id` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cdm_auth` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 0 ORDER BY auth_order asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `role_auth_ac` FROM `cdm_manager` INNER JOIN  cdm_role ON cdm_manager.mg_role_id = cdm_role.role_id  WHERE `mg_id` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cdm_customer_info` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `cdm_customer_info` WHERE `idno` = '断水断电' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `cdm_customer_info` (`real_name`,`idno`,`mobile`,`mobile2`,`address`,`content`,`customer_type`,`create_time`,`update_time`) VALUES ('圣诞','断水断电','12345678910','12345678910','收费电视','','0','1456469739','1456469739') [ RunTime:0.0000s ]
+
+[ 2016-02-26T14:55:42+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T14:56:22+08:00 ] ::1 /index.php/CustomerInfo/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cdm_manager` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cdm_manager` WHERE `mg_id` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cdm_role` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cdm_role` WHERE `role_id` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cdm_auth` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 0 ORDER BY auth_order asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cdm_auth` WHERE `auth_level` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `role_auth_ac` FROM `cdm_manager` INNER JOIN  cdm_role ON cdm_manager.mg_role_id = cdm_role.role_id  WHERE `mg_id` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cdm_customer_info` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `cdm_customer_info` WHERE `idno` = '所发生的发生' LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: auto G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `cdm_customer_info` (`real_name`,`idno`,`mobile`,`mobile2`,`address`,`content`,`customer_type`,`create_time`,`update_time`) VALUES ('是的','所发生的发生','12345678910','12345678910','的风格大方','','0','1456469782','1456469782') [ RunTime:0.0000s ]
+
+[ 2016-02-26T14:56:23+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T15:51:45+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T15:51:49+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T15:51:56+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T15:52:03+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T16:25:53+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T16:25:58+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T16:34:10+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T16:34:45+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T16:34:55+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T16:35:35+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T16:36:12+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T16:36:20+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T16:36:42+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T16:42:41+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T16:43:09+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T16:48:02+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T16:48:33+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T16:48:57+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T16:49:15+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T16:51:02+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T16:51:25+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T16:52:33+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T16:53:40+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T16:54:30+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T16:55:09+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T16:55:27+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T16:56:33+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T16:57:09+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T16:58:00+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T16:58:16+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T16:58:37+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T16:58:40+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T16:58:43+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T16:58:46+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T17:23:02+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T17:24:03+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T17:24:13+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T17:32:57+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-26T17:33:09+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+

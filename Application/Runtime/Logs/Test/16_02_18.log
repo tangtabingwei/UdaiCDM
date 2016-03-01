@@ -1,0 +1,952 @@
+[ 2016-02-18T14:13:00+08:00 ] ::1 /test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-02-18T14:14:32+08:00 ] ::1 /test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Test
+
+[ 2016-02-18T14:15:04+08:00 ] ::1 /Test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Test
+
+[ 2016-02-18T14:15:10+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-02-18T14:15:18+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-02-18T14:16:08+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-18T14:18:02+08:00 ] ::1 /test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-18T14:20:21+08:00 ] ::1 /test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\WWW7\Application\Test\Controller\IndexController.class.php on line 6 and defined G:\WWW7\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\WWW7\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-18T14:20:30+08:00 ] ::1 /index.php/Test/CmdCustomerBank/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 1146:Table 'cdmsys.cdm_cmd_customer_bank' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cdm_cmd_customer_bank`
+ERR: 1146:Table 'cdmsys.cdm_cmd_customer_bank' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cdm_cmd_customer_bank`
+
+[ 2016-02-18T14:57:17+08:00 ] ::1 /test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\WWW7\Application\Test\Controller\IndexController.class.php on line 6 and defined G:\WWW7\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\WWW7\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-18T14:57:20+08:00 ] ::1 /index.php/Test/CustomerBank/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cdm_customer_bank` [ RunTime:0.0110s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in G:\WWW7\Application\Test\Controller\CustomerBankController.class.php on line 9 and defined G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cdm_customer_bank` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in G:\WWW7\Application\Test\Controller\CustomerBankController.class.php on line 12 and defined G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `cdm_customer_bank` LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-18T14:57:20+08:00 ] ::1 /index.php/Test/CustomerBank/href=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:href=
+
+[ 2016-02-18T14:57:28+08:00 ] ::1 /index.php/Test/CustomerInfo/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-18T14:57:28+08:00 ] ::1 /index.php/Test/CustomerInfo/href=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:href=
+
+[ 2016-02-18T15:00:44+08:00 ] ::1 /index.php/Test/CustomerInfo/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cdm_customer_info` [ RunTime:0.0120s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in G:\WWW7\Application\Test\Controller\CustomerInfoController.class.php on line 9 and defined G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cdm_customer_info` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in G:\WWW7\Application\Test\Controller\CustomerInfoController.class.php on line 12 and defined G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `cdm_customer_info` LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-02-18T15:00:47+08:00 ] ::1 /index.php/Test/Deal/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-18T15:00:47+08:00 ] ::1 /index.php/Test/Deal/href=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:href=
+
+[ 2016-02-18T15:01:07+08:00 ] ::1 /index.php/Test/Deal/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cdm_deal` [ RunTime:0.0140s ]
+NOTIC: [8] Undefined index: validate G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `cdm_deal` (`deal_sn`,`name`,`sub_name`,`cate_id`,`c_id`,`description`,`is_effect`,`is_delete`,`sort`,`type_id`,`icon`,`borrow_amount`,`repay_time`,`rate`,`loantype`,`create_time`,`update_time`,`repay_money`,`repay_start_time`,`last_repay_time`,`next_repay_time`,`deal_status`,`is_check`,`enddate`,`services_fee`,`publish_wait`,`send_three_msg_time`,`is_send_contract`,`repay_time_type`,`risk_rank`,`risk_security`,`manage_fee`,`manage_impose_fee_day1`,`manage_impose_fee_day2`,`impose_fee_day1`,`impose_fee_day2`,`delete_msg`,`user_bid_rebate`,`guarantor_pro_fit_amt`,`guarantor_real_fit_amt`,`view_info`,`repay_start_date`,`bad_date`,`contract_id`,`tcontract_id`,`is_hidden`,`attachment`,`tattachment`,`is_index_show`,`loans_pic`,`admin_id`) VALUES ('sdsd','dfsd','沙发上','1','1','','0','0','0','0','','','0','','0','0','0','','0','0','0','0','','0','','0','0','0','0','0','','','','','','','','','','','','','','0','0','0','','','0','','0') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-18T15:01:08+08:00 ] ::1 /index.php/Test/Deal/all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cdm_deal` [ RunTime:0.0130s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in G:\WWW7\Application\Test\Controller\DealController.class.php on line 9 and defined G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cdm_deal` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in G:\WWW7\Application\Test\Controller\DealController.class.php on line 12 and defined G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `cdm_deal` LIMIT 0,15   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 141 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 142 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-02-18T15:44:41+08:00 ] ::1 /index.php/Test/Deal/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cdm_deal` [ RunTime:0.0090s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in G:\WWW7\Application\Test\Controller\DealController.class.php on line 9 and defined G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cdm_deal` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in G:\WWW7\Application\Test\Controller\DealController.class.php on line 12 and defined G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `cdm_deal` LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 141 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 142 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-18T15:44:44+08:00 ] ::1 /index.php/Test/Deal/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-02-18T15:44:50+08:00 ] ::1 /index.php/Test/Deal/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cdm_deal` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: validate G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `cdm_deal` (`deal_sn`,`name`,`sub_name`,`cate_id`,`c_id`,`description`,`is_effect`,`is_delete`,`sort`,`type_id`,`icon`,`borrow_amount`,`repay_time`,`rate`,`loantype`,`create_time`,`update_time`,`repay_money`,`repay_start_time`,`last_repay_time`,`next_repay_time`,`deal_status`,`is_check`,`enddate`,`services_fee`,`publish_wait`,`send_three_msg_time`,`is_send_contract`,`repay_time_type`,`risk_rank`,`risk_security`,`manage_fee`,`manage_impose_fee_day1`,`manage_impose_fee_day2`,`impose_fee_day1`,`impose_fee_day2`,`delete_msg`,`user_bid_rebate`,`guarantor_pro_fit_amt`,`guarantor_real_fit_amt`,`view_info`,`repay_start_date`,`bad_date`,`contract_id`,`tcontract_id`,`is_hidden`,`attachment`,`tattachment`,`is_index_show`,`loans_pic`,`admin_id`) VALUES ('a','','','0','0','','0','0','0','0','','','0','','0','0','0','','0','0','0','0','','0','','0','0','0','0','0','','','','','','','','','','','','','','0','0','0','','','0','','0') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-18T15:44:51+08:00 ] ::1 /index.php/Test/Deal/all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cdm_deal` [ RunTime:0.0050s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in G:\WWW7\Application\Test\Controller\DealController.class.php on line 9 and defined G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cdm_deal` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in G:\WWW7\Application\Test\Controller\DealController.class.php on line 12 and defined G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `cdm_deal` LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 141 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 142 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 141 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 142 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-18T15:44:56+08:00 ] ::1 /index.php/Test/Deal/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-18T15:44:59+08:00 ] ::1 /index.php/Test/Deal/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cdm_deal` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: validate G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `cdm_deal` (`deal_sn`,`name`,`sub_name`,`cate_id`,`c_id`,`description`,`is_effect`,`is_delete`,`sort`,`type_id`,`icon`,`borrow_amount`,`repay_time`,`rate`,`loantype`,`create_time`,`update_time`,`repay_money`,`repay_start_time`,`last_repay_time`,`next_repay_time`,`deal_status`,`is_check`,`enddate`,`services_fee`,`publish_wait`,`send_three_msg_time`,`is_send_contract`,`repay_time_type`,`risk_rank`,`risk_security`,`manage_fee`,`manage_impose_fee_day1`,`manage_impose_fee_day2`,`impose_fee_day1`,`impose_fee_day2`,`delete_msg`,`user_bid_rebate`,`guarantor_pro_fit_amt`,`guarantor_real_fit_amt`,`view_info`,`repay_start_date`,`bad_date`,`contract_id`,`tcontract_id`,`is_hidden`,`attachment`,`tattachment`,`is_index_show`,`loans_pic`,`admin_id`) VALUES ('a','','','0','0','','0','0','0','0','','','0','','0','0','0','','0','0','0','0','','0','','0','0','0','0','0','','','','','','','','','','','','','','0','0','0','','','0','','0') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-18T15:45:01+08:00 ] ::1 /index.php/Test/Deal/all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cdm_deal` [ RunTime:0.0070s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in G:\WWW7\Application\Test\Controller\DealController.class.php on line 9 and defined G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cdm_deal` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in G:\WWW7\Application\Test\Controller\DealController.class.php on line 12 and defined G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `cdm_deal` LIMIT 0,15   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 141 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 142 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 141 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 142 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 141 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 142 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-18T15:45:03+08:00 ] ::1 /index.php/Test/Deal/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-18T15:45:06+08:00 ] ::1 /index.php/Test/Deal/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cdm_deal` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: validate G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `cdm_deal` (`deal_sn`,`name`,`sub_name`,`cate_id`,`c_id`,`description`,`is_effect`,`is_delete`,`sort`,`type_id`,`icon`,`borrow_amount`,`repay_time`,`rate`,`loantype`,`create_time`,`update_time`,`repay_money`,`repay_start_time`,`last_repay_time`,`next_repay_time`,`deal_status`,`is_check`,`enddate`,`services_fee`,`publish_wait`,`send_three_msg_time`,`is_send_contract`,`repay_time_type`,`risk_rank`,`risk_security`,`manage_fee`,`manage_impose_fee_day1`,`manage_impose_fee_day2`,`impose_fee_day1`,`impose_fee_day2`,`delete_msg`,`user_bid_rebate`,`guarantor_pro_fit_amt`,`guarantor_real_fit_amt`,`view_info`,`repay_start_date`,`bad_date`,`contract_id`,`tcontract_id`,`is_hidden`,`attachment`,`tattachment`,`is_index_show`,`loans_pic`,`admin_id`) VALUES ('a','','','0','0','','0','0','0','0','','','0','','0','0','0','','0','0','0','0','','0','','0','0','0','0','0','','','','','','','','','','','','','','0','0','0','','','0','','0') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-18T15:45:08+08:00 ] ::1 /index.php/Test/Deal/all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cdm_deal` [ RunTime:0.0070s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in G:\WWW7\Application\Test\Controller\DealController.class.php on line 9 and defined G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cdm_deal` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in G:\WWW7\Application\Test\Controller\DealController.class.php on line 12 and defined G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `cdm_deal` LIMIT 0,15   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 141 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 142 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 141 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 142 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 141 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 142 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 141 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 142 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-18T15:45:11+08:00 ] ::1 /index.php/Test/Deal/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-18T15:45:16+08:00 ] ::1 /index.php/Test/Deal/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cdm_deal` [ RunTime:0.0140s ]
+NOTIC: [8] Undefined index: validate G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `cdm_deal` (`deal_sn`,`name`,`sub_name`,`cate_id`,`c_id`,`description`,`is_effect`,`is_delete`,`sort`,`type_id`,`icon`,`borrow_amount`,`repay_time`,`rate`,`loantype`,`create_time`,`update_time`,`repay_money`,`repay_start_time`,`last_repay_time`,`next_repay_time`,`deal_status`,`is_check`,`enddate`,`services_fee`,`publish_wait`,`send_three_msg_time`,`is_send_contract`,`repay_time_type`,`risk_rank`,`risk_security`,`manage_fee`,`manage_impose_fee_day1`,`manage_impose_fee_day2`,`impose_fee_day1`,`impose_fee_day2`,`delete_msg`,`user_bid_rebate`,`guarantor_pro_fit_amt`,`guarantor_real_fit_amt`,`view_info`,`repay_start_date`,`bad_date`,`contract_id`,`tcontract_id`,`is_hidden`,`attachment`,`tattachment`,`is_index_show`,`loans_pic`,`admin_id`) VALUES ('a','','','0','0','','0','0','0','0','','','0','','0','0','0','','0','0','0','0','','0','','0','0','0','0','0','','','','','','','','','','','','','','0','0','0','','','0','','0') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-18T15:45:17+08:00 ] ::1 /index.php/Test/Deal/all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cdm_deal` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in G:\WWW7\Application\Test\Controller\DealController.class.php on line 9 and defined G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cdm_deal` LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in G:\WWW7\Application\Test\Controller\DealController.class.php on line 12 and defined G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `cdm_deal` LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 141 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 142 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 141 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 142 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 141 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 142 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 141 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 142 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 141 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 142 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-18T15:45:19+08:00 ] ::1 /index.php/Test/Deal/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-02-18T15:45:24+08:00 ] ::1 /index.php/Test/Deal/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cdm_deal` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: validate G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `cdm_deal` (`deal_sn`,`name`,`sub_name`,`cate_id`,`c_id`,`description`,`is_effect`,`is_delete`,`sort`,`type_id`,`icon`,`borrow_amount`,`repay_time`,`rate`,`loantype`,`create_time`,`update_time`,`repay_money`,`repay_start_time`,`last_repay_time`,`next_repay_time`,`deal_status`,`is_check`,`enddate`,`services_fee`,`publish_wait`,`send_three_msg_time`,`is_send_contract`,`repay_time_type`,`risk_rank`,`risk_security`,`manage_fee`,`manage_impose_fee_day1`,`manage_impose_fee_day2`,`impose_fee_day1`,`impose_fee_day2`,`delete_msg`,`user_bid_rebate`,`guarantor_pro_fit_amt`,`guarantor_real_fit_amt`,`view_info`,`repay_start_date`,`bad_date`,`contract_id`,`tcontract_id`,`is_hidden`,`attachment`,`tattachment`,`is_index_show`,`loans_pic`,`admin_id`) VALUES ('a','','','0','0','','0','0','0','0','','','0','','0','0','0','','0','0','0','0','','0','','0','0','0','0','0','','','','','','','','','','','','','','0','0','0','','','0','','0') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-18T15:45:25+08:00 ] ::1 /index.php/Test/Deal/all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `cdm_deal` [ RunTime:0.0080s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in G:\WWW7\Application\Test\Controller\DealController.class.php on line 9 and defined G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cdm_deal` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in G:\WWW7\Application\Test\Controller\DealController.class.php on line 12 and defined G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `cdm_deal` LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 141 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 142 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 141 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 142 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 141 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 142 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 141 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 142 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 141 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 142 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 141 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 142 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-18T15:45:29+08:00 ] ::1 /index.php/Test/Deal/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-18T15:45:36+08:00 ] ::1 /index.php/Test/Deal/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cdm_deal` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: validate G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `cdm_deal` (`deal_sn`,`name`,`sub_name`,`cate_id`,`c_id`,`description`,`is_effect`,`is_delete`,`sort`,`type_id`,`icon`,`borrow_amount`,`repay_time`,`rate`,`loantype`,`create_time`,`update_time`,`repay_money`,`repay_start_time`,`last_repay_time`,`next_repay_time`,`deal_status`,`is_check`,`enddate`,`services_fee`,`publish_wait`,`send_three_msg_time`,`is_send_contract`,`repay_time_type`,`risk_rank`,`risk_security`,`manage_fee`,`manage_impose_fee_day1`,`manage_impose_fee_day2`,`impose_fee_day1`,`impose_fee_day2`,`delete_msg`,`user_bid_rebate`,`guarantor_pro_fit_amt`,`guarantor_real_fit_amt`,`view_info`,`repay_start_date`,`bad_date`,`contract_id`,`tcontract_id`,`is_hidden`,`attachment`,`tattachment`,`is_index_show`,`loans_pic`,`admin_id`) VALUES ('a','','','0','0','','0','0','0','0','','','0','','0','0','0','','0','0','0','0','','0','','0','0','0','0','0','','','','','','','','','','','','','','0','0','0','','','0','','0') [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-18T15:45:37+08:00 ] ::1 /index.php/Test/Deal/all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cdm_deal` [ RunTime:0.0130s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in G:\WWW7\Application\Test\Controller\DealController.class.php on line 9 and defined G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cdm_deal` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in G:\WWW7\Application\Test\Controller\DealController.class.php on line 12 and defined G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `cdm_deal` LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 141 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 142 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 141 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 142 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 141 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 142 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 141 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 142 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 141 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 142 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 141 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 142 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 141 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 142 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-18T15:45:40+08:00 ] ::1 /index.php/Test/Deal/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-18T15:45:44+08:00 ] ::1 /index.php/Test/Deal/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cdm_deal` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: validate G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `cdm_deal` (`deal_sn`,`name`,`sub_name`,`cate_id`,`c_id`,`description`,`is_effect`,`is_delete`,`sort`,`type_id`,`icon`,`borrow_amount`,`repay_time`,`rate`,`loantype`,`create_time`,`update_time`,`repay_money`,`repay_start_time`,`last_repay_time`,`next_repay_time`,`deal_status`,`is_check`,`enddate`,`services_fee`,`publish_wait`,`send_three_msg_time`,`is_send_contract`,`repay_time_type`,`risk_rank`,`risk_security`,`manage_fee`,`manage_impose_fee_day1`,`manage_impose_fee_day2`,`impose_fee_day1`,`impose_fee_day2`,`delete_msg`,`user_bid_rebate`,`guarantor_pro_fit_amt`,`guarantor_real_fit_amt`,`view_info`,`repay_start_date`,`bad_date`,`contract_id`,`tcontract_id`,`is_hidden`,`attachment`,`tattachment`,`is_index_show`,`loans_pic`,`admin_id`) VALUES ('a','','','0','0','','0','0','0','0','','','0','','0','0','0','','0','0','0','0','','0','','0','0','0','0','0','','','','','','','','','','','','','','0','0','0','','','0','','0') [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-02-18T15:45:46+08:00 ] ::1 /index.php/Test/Deal/all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `cdm_deal` [ RunTime:0.0070s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in G:\WWW7\Application\Test\Controller\DealController.class.php on line 9 and defined G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cdm_deal` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in G:\WWW7\Application\Test\Controller\DealController.class.php on line 12 and defined G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where G:\WWW7\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `cdm_deal` LIMIT 0,15   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 141 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 142 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 141 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 142 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 141 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 142 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 141 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 142 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 141 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 142 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 141 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 142 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 141 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 142 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 141 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\WWW7\Application\Runtime\Cache\test\4c5016800d710803c8262a577ccdbeab.php 第 142 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

@@ -1,0 +1,157 @@
+[ 2016-02-25T09:36:09+08:00 ] ::1 /
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND `auth_level` = 0' at line 1
+ [ SQL语句 ] : SELECT * FROM `cdm_auth` WHERE `auth_id` IN () AND `auth_level` = 0 
+
+[ 2016-02-25T09:38:38+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T09:46:50+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T09:48:14+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T09:49:36+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T09:51:38+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T09:57:40+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T09:58:01+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T09:58:40+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T09:58:44+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T09:59:55+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T10:00:03+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T10:11:57+08:00 ] ::1 /index.php/Role/add.html
+ERR: 非法操作:add
+
+[ 2016-02-25T10:12:06+08:00 ] ::1 /index.php/Role/add.html
+ERR: 非法操作:add
+
+[ 2016-02-25T10:12:53+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T10:56:59+08:00 ] ::1 /index.php/Auth/add.html
+ERR: Think\Controller:getInfo方法不存在！
+
+[ 2016-02-25T10:57:10+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T10:57:14+08:00 ] ::1 /index.php/Auth/add.html
+ERR: Think\Controller:getInfo方法不存在！
+
+[ 2016-02-25T11:37:46+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T11:41:17+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T13:05:21+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T13:06:08+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T13:07:14+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T13:12:59+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T13:14:04+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T13:14:22+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T13:14:29+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T13:14:35+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T13:28:46+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T13:47:02+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T13:58:05+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T13:59:44+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T14:09:31+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T14:11:49+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T14:14:00+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T14:15:46+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T14:16:24+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T14:22:21+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T14:29:07+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T14:29:35+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T14:30:01+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T14:33:52+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T14:35:28+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T14:41:09+08:00 ] ::1 /index.php/User/edit/mg_id/2.html
+ERR: 非法操作:edit
+
+[ 2016-02-25T14:58:31+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T15:16:12+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T15:32:24+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T15:32:40+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T15:36:59+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T15:37:11+08:00 ] ::1 /Public/Static/bower_components/datatables-responsive/css/dataTables.responsive.css
+ERR: 非法操作:Static
+
+[ 2016-02-25T15:50:38+08:00 ] ::1 /index.php/index.php/public/login.html.html
+ERR: 无法加载控制器:Index.php
+
+[ 2016-02-25T15:51:37+08:00 ] ::1 /index.php/index.php/public/login.html.html
+ERR: 无法加载控制器:Index.php
+

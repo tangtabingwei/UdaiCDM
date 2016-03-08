@@ -6,7 +6,7 @@ class PublicController extends Controller {
     	if(IS_POST){
 			$rst = D('Manager') -> CheckNamePwd($_POST['username'],$_POST['password']);
 			if ($rst === false) {
-				$this -> show('用户名或密码错误');
+				$this->error('用户名或密码错误');
 			} else {
 				//登录信息持久化$_SESSION
 				session('username',$rst['mg_name']);

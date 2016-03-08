@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- 主机: localhost
--- 生成日期: 2016 年 03 月 02 日 13:40
+-- 生成日期: 2016 年 03 月 08 日 17:35
 -- 服务器版本: 5.5.40
 -- PHP 版本: 5.3.29
 
@@ -37,7 +37,7 @@ CREATE TABLE IF NOT EXISTS `cdm_auth` (
   `auth_icon` varchar(20) NOT NULL COMMENT '图标',
   `auth_order` tinyint(4) NOT NULL COMMENT '排序',
   PRIMARY KEY (`auth_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=33 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=30 ;
 
 --
 -- 转存表中的数据 `cdm_auth`
@@ -69,9 +69,7 @@ INSERT INTO `cdm_auth` (`auth_id`, `auth_name`, `auth_pid`, `auth_c`, `auth_a`, 
 (26, '删除', 7, 'User', 'delete', '6-7-26', 2, '', 0),
 (27, '添加', 8, 'Role', 'add', '6-8-27', 2, '', 0),
 (28, '修改', 28, 'Role', 'distribute', '6-8-28', 2, '', 0),
-(29, '删除', 8, 'Role', 'delete', '6-8-29', 2, '', 0),
-(31, '贷中管理', 0, '', '', '31', 0, '', 0),
-(32, '贷中列表', 31, 'abc', 'lists', '31-32', 1, '', 0);
+(29, '删除', 8, 'Role', 'delete', '6-8-29', 2, '', 0);
 
 -- --------------------------------------------------------
 
@@ -281,9 +279,9 @@ CREATE TABLE IF NOT EXISTS `cdm_manager` (
 
 INSERT INTO `cdm_manager` (`mg_id`, `mg_name`, `mg_pwd`, `mg_time`, `mg_role_id`) VALUES
 (1, 'admin', 'admin', 0, 2),
-(2, 'user2', '123456', 0, 2),
-(3, '编辑', '123456', 0, 1),
-(5, '圣诞', '123456', 0, 1);
+(2, 'user2', '123456', 0, 3),
+(3, 'user3', '123456', 0, 4),
+(5, 'user4', '123456', 0, 5);
 
 -- --------------------------------------------------------
 
@@ -297,7 +295,7 @@ CREATE TABLE IF NOT EXISTS `cdm_role` (
   `role_auth_ids` varchar(128) NOT NULL DEFAULT '' COMMENT '权限ids',
   `role_auth_ac` text COMMENT '模块-操作',
   PRIMARY KEY (`role_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=6 ;
 
 --
 -- 转存表中的数据 `cdm_role`
@@ -306,7 +304,9 @@ CREATE TABLE IF NOT EXISTS `cdm_role` (
 INSERT INTO `cdm_role` (`role_id`, `role_name`, `role_auth_ids`, `role_auth_ac`) VALUES
 (1, '经理', '1,4,2,5,9,10', 'CustomerInfo-lists,Accept-lists,Auth-lists,Auth-add'),
 (2, '主管', '1,4,2,5,14,3,15,6,7', 'CustomerInfo-lists,Accept-lists,User-lists,Accept-approve,Grant-lists'),
-(3, '客户经理', '1,4,2,5,14', 'CustomerInfo-lists,Accept-lists,Accept-approve');
+(3, '客户经理', '1,4,21,22,23,2,5', 'CustomerInfo-lists,Accept-lists,CustomerInfo-add,CustomerInfo-edit,CustomerInfo-delete'),
+(4, '审核员', '2,14', 'Accept-approve'),
+(5, '财务', '3,15', 'Grant-lists');
 
 -- --------------------------------------------------------
 
